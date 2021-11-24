@@ -15,7 +15,7 @@ async function sendEmail(body) {
     console.log(body)
     const options = {
         from : "kukab@vortechs.io",
-        to :  'alveena@civixa.com' ,
+        to :  'kukabShakil1996@gmail.com' ,
         subject: `${body.email}`,
         text : body.message
     }
